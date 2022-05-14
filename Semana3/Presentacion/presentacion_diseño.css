@@ -1,14 +1,19 @@
+/* =Fuentes para el título, subtítulos y texto 
+----------------------------------------------------------*/
 @font-face {
+    /*Esta es la fuente para el título h1*/
     font-family: "RadioCanada";
     src: url(./RadioCanada-VariableFont_wdth\,wght.ttf);
-
+    /*Esta es la fuente para los subtítulos h2*/
     font-family: "Regular";
     src: url(./Kanit-Regular.ttf);
-
+    /*Esta es la fuente para los textos como párrafos*/
     font-family: "Patrick Hand";
     src: url(./PatrickHand-Regular.ttf);
 }
 
+/* =Título 
+----------------------------------------------------------*/
 h1{
     text-align: center;
     color:goldenrod; 
@@ -17,6 +22,8 @@ h1{
     text-shadow: 3px 2px rgba(172, 225, 241, 0.897) ;
 }
 
+/* =Subtítulos
+----------------------------------------------------------*/
 h2{
     text-align: center;
     color: goldenrod;
@@ -25,81 +32,165 @@ h2{
     text-shadow: 2px 4px rgba(172, 225, 241, 0.897) ;
 }
 
-body{
-    background-color: rgba(172, 225, 241, 0.897);
+/* =HEADER
+----------------------------------------------------------*/
+header{
+    background-color: white;
+    position: relative;
+    height: 50px;
+    bottom: 50px;
 }
+
+/* =SECTION
+----------------------------------------------------------*/
+section{
+    background-color: rgba(172, 225, 241, 0.897);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/* =Mi foto
+----------------------------------------------------------*/
+img{
+    width: 350px;
+    height: 350px; 
+    position: relative;
+    left: 480px;
+    top: 50px;
+ }
+
+/* =Estilización de párrafos
+----------------------------------------------------------*/
 p{
     font-family: "Patrick Hand";
-    text-indent: 10px;
     text-align: justify;
     line-height: 2;
 }
 
+/* =Estilización de los links de las rolitas
+----------------------------------------------------------*/
+a:link{
+    color: goldenrod; 
+}
+a:visited{
+    color: rgb(6, 138, 116); 
+}
+a:hover{
+    color: rgba(165, 12, 89, 0.897); 
+}
 
-#header{
+/* =FOOTER
+----------------------------------------------------------*/
+footer{
     background-color: white;
-    position: relative;
-     
+    position: relative;    
+    height: 50px;   
 }
 
-
-#inicio{
-    background-color: white;
-    width: 500px;
-    height: 100px;
-    
-}
-
-#img{
-   width: 350px;
-   height: 350px; 
-    
-}
-
-
-#pasatiempos{
-
+/* =Mis pasatiempos
+----------------------------------------------------------*/
+.pasatiempos{
+    position:relative;
+    left: 200px;
+    bottom: -90px;
     width: 350px;
+    height: 150px;
+    background-color: white;
+    font-family: "Patrick Hand";
+    overflow: auto;
+    border: solid; 
+    border-color: goldenrod;
+    border-radius: 10%;
+    padding: 10px 20px 10px 20px;
+       
+/* =Mis canciones fav
+----------------------------------------------------------*/
+}
+
+/* Mis canciones fav
+----------------------------------------------------------*/
+.rolitas{
+    position:relative;
+    left: 730px; 
+    bottom: 460px;
+    width: 320px; 
+    height: 150px;
+    background-color: white;
+    font-family: "Patrick Hand";
+    overflow: auto; 
+    border: solid; 
+    border-color: goldenrod; 
+    border-radius: 10%;
+    padding: 10px 20px 10px 20px;
+}
+
+/* =Saludos y propósito
+----------------------------------------------------------*/
+#hola{
+    background-color: white;
+    width: 600px;
+    height: 220px;
+    border: solid;
+    border-color: goldenrod;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    left: 320px;
+    top: 60px;
+    
+    
+}
+
+/* =Mis crushes
+----------------------------------------------------------*/
+#crushes{
+    position:relative;
+    left: 750px;
+    bottom: -170px;
+    width: 320px;
+    height: 150px;
+    background-color: white; 
+    font-family: "Patrick Hand";
+    border: solid; 
+    border-color: goldenrod; 
+    border-style: dotted;
+    padding: 10px 10px 20px 10px; 
+    
+    
+}
+
+/* =Mis pelis fav
+----------------------------------------------------------*/
+#pelis{
+    position:relative;
+    left: 230px;
+    bottom: 10px;
+    width: 320px;
+    height: 150px;
+    background-color: white;
+    font-family: "Patrick Hand";
+    border: solid; 
+    border-color: goldenrod; 
+    border-style: dotted;
+    padding: 10px 10px 20px 10px ;
+}
+
+/* =Top de temas de programación
+----------------------------------------------------------*/
+#programación{
+    position: relative;
+    left: 480px;
+    bottom: 100px;
+    width: 320px;
     height: 320px;
     background-color: white;
     font-family: "Patrick Hand";
-    position:relative;
     border: solid; 
-    border-color: goldenrod;
+    border-color: goldenrod; 
+    padding: 10px 10px 10px 10px;
     
-    
 
 }
 
-#crushes{
-    background-color: white; 
-    font-family: "Patrick Hand";
-    position:relative;
-    width: 320px;
-    height: 150px;
-    
-}
 
-#pelis{
-    background-color: white;
-    font-family: "Patrick Hand";
-    position:relative;
-    width: 320px;
-    height: 150px;
-}
-
-#rolitas{
-    background-color: white;
-    font-family: "Patrick Hand";
-    position:relative;
-    width: 320px; 
-    height: 220px;
-
-}
-
-#footer{
-    background-color: ;
-    position: relative;
-    
-}
 
