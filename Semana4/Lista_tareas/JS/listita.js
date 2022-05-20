@@ -23,15 +23,5 @@ lista.addEventListener("click", (evento) => {
 
     
 
-//     lista.innerHTML += '<li>' + nombreTarea.value+  + '<button class="eliminar">Eliminar</button></li>'; 
-//     console.log(); 
-// });
-
-// lista.addEventListener("click", (evento) => {
-//     if(evento.target.className === 'eliminar'){ 
-//         evento.target.parentElement.outerHTML = '';  
-//     }
-// });
-
 
 

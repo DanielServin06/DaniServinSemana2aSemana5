@@ -65,7 +65,16 @@ h1{
 
 #añadir{
     position: relative;
-    left: 100px;
-    top: 100px; 
+    right: 250px;
+    top: 120px; 
     
 }
+
+#predeterminadas{
+    position: relative;
+    top: 70px;
+    right: 250px;
+    border-color: black;
+    height: 30px;
+}
+
