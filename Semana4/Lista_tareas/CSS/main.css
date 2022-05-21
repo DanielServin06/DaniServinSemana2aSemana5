@@ -27,15 +27,18 @@ h1{
     top: 30px
 }
 
-
+/* =Nombre de la asignatura
+----------------------------------------------------------*/
 #nombreAsignatura{
     position: relative;
     left: 150px;
-    top: 65px;
-    border-color:black ;
+    top: 70px;
+  
+    padding: 5px 5px 5px 5px ;
     height: 20px;
 }
-
+/* =Lista de tareas
+----------------------------------------------------------*/
 #lista{
     position: relative;
     top: 200px;
@@ -44,6 +47,8 @@ h1{
     text-shadow: 2px 2px black;
 }
 
+/* =Nombre de la tarea
+----------------------------------------------------------*/
 #nombreTarea{
     position: relative;
     left: 220px;
@@ -51,6 +56,8 @@ h1{
     height: 20px;
 }
 
+/* =Contenedor
+----------------------------------------------------------*/
 #content{
     background-color: rgba(220, 20, 60, 0.658);
     border-radius: 10% ;
@@ -63,9 +70,21 @@ h1{
     padding: 20px 20px 20px 20px;
 }
 
+/* =Botón de añadir tarea
+----------------------------------------------------------*/
 #añadir{
     position: relative;
-    left: 100px;
-    top: 100px; 
+    right: 250px;
+    top: 120px; 
+    height: 30px;
     
+ /* =Asignaturas predeterminadas 
+----------------------------------------------------------*/
+}
+#predeterminadas{
+    position: relative; 
+    top: 70px; 
+    right: 240px;
+    height: 40px;
+    padding: 5px 5px 5px 5px ;
 }
