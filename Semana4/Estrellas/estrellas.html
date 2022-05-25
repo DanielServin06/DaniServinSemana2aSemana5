@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Dibujador de estrellas</h1>
+        <canvas id="lienzo" width="600" height="600"></canvas>
+        <div class="numero-picos">
+            <label for="picos">Número de picos: </label>
+            <input type="number" min="4" max="30" id="picos" required>
+        </div>
+        <div class="grado-picudez" >
+            <label for="picudez">Picudez</label>
+            <input type="range" id="picudez" min="0" max="100">
+        </div>
+        <div class="color-estrella" >
+            <label for="color">Color</label>
+            <input type="color" id="color" >
+        </div>
+
+        <div class="relleno-estrella">
+            <label for="relleno">Rellenar</label>
+            <input type="checkbox" id="relleno">
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./Js/stars.js"></script>
+</body>
+</html>

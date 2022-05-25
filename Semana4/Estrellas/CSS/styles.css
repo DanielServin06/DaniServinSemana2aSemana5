@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Light";
+    src: url("./Rowdies-Light.ttf");
+}
+
+body{
+    background-color: #00ab83;
+}
+
+
+h1{
+    font-family: "Light";
+    text-shadow: 2px 3px #00ab83;
+}
+
+.contenedor{
+    width: 800px;
+    height: 900px;
+    border-radius: 10%; 
+    background-color: white;
+    position:relative; 
+    left: 400px;
+    bottom: -50px;
+    display: flex;
+    flex-flow: column wrap-reverse ;
+    align-items: center;
+    padding: 5px 5px 5px 5px; 
+}
+
+.numero-picos{
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    top: 40px;
+}
+.grado-picudez{
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    top: 50px;
+}
+.color-estrella{
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    top: 60px;
+}
+
+.relleno-estrella{
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    top: 70px;
+}
