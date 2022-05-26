@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Regular";
+    src: url("./AlfaSlabOne-Regular.ttf");
+}
+
+
+h1{
+    font-family: "Regular";
+    text-shadow: 2px 3px #00aba2;
+
+}
+
+.contenedor{
+    background-color: white;
+    border-radius: 10%;
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    position: relative;
+    align-items: center;
+    left: 100px;    
+}
+
+#seg{
+    position: relative;
+    top: 600px;
+}
+#continuar{
+    position: relative;
+    top: 610px;
+    left: -20px;
+}
+#pausa{
+    position: relative;
+    top: 580px;
+    left: 20px;
+
+}

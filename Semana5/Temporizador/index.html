@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\xampp\htdocs\Statics\Libs\bootstrap-5.2.0-beta1-dist\css\bootstrap.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Temporizador</title>
 </head>
 <body>
-
+   <center><h1>Bienvenidx a mi temporizador</h1></center>
+    <div class="contenedor">
+            <!-- <span>Minutos: </span>
+            <input type="number" max="59" min="00" value="00" id="min" class="minutos" required> -->
+        <span>Segundos</span>
+        <input type="number" max="59" min="0" value="00" id="seg" class="segundos" required>
+        <button id="continuar"> > </button>
+        <button id="pausa">||</button>
+    </div>
   
     <!-- Button trigger modal -->
 <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="tiempo">
@@ -25,9 +34,9 @@
         </div>
         <div class="modal-body">
         <span>Minutos: </span>
-        <input type="number" max="59" min="00" value="00" id="min" class="minutos" required>
+        <input type="number" max="59" min="0" value="00" id="min" class="minutos" required>
         <span>Segundos</span>
-        <input type="number" max="59" min="00" value="00" id="seg" class="segundos" required>
+        <input type="number" max="59" min="0" value="00" id="seg" class="segundos" required>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" id="aceptar">Aceptar</button>
@@ -35,15 +44,7 @@
       </div>
     </div>
   </div> -->
-  <div class="modal-body">
-    <!-- <span>Minutos: </span>
-    <input type="number" max="59" min="00" value="00" id="min" class="minutos" required> -->
-    <span>Segundos</span>
-    <input type="number" max="59" min="0" value="00" id="seg" class="segundos" required>
-    </div>
-  
-  <button id="inicio"> > </button>
-  <button id="fin">||</button>
+
 
    
    

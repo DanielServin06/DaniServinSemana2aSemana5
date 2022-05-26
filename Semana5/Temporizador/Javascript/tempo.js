@@ -1,11 +1,10 @@
-const inicio = document.getElementById("inicio"); 
-const fin = document.getElementById("fin");
+const inicio = document.getElementById("continuar"); 
+const fin = document.getElementById("pausa");
 const tiempo = document.getElementById("tiempo"); 
 let segundos = document.getElementById("seg"); 
 let minutos = document.getElementById("min"); 
 const aceptar = document.getElementById("aceptar");
 const alarma = new Audio("./Audio/uh.mp3");
-
 
 
 let Contador;
