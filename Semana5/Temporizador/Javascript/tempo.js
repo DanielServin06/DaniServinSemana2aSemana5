@@ -1,37 +1,27 @@
 const inicio = document.getElementById("inicio"); 
 const fin = document.getElementById("fin");
 const tiempo = document.getElementById("tiempo"); 
-const segundos = document.getElementById("seg"); 
-const minutos = document.getElementById("min"); 
+let segundos = document.getElementById("seg"); 
+let minutos = document.getElementById("min"); 
 const aceptar = document.getElementById("aceptar");
+const alarma = new Audio("./Audio/uh.mp3");
 
 
 
-
-let correTiempo; 
-let correTiempoMin;
-
-tiempo.addEventListener("click",()=>{
-    if(aceptar !=''){
-    inicio.addEventListener("click",()=>{
-            if(segundos.value == ''){
-                correTiempo = setInterval(()=>{
-                    segundos.value --;
-                },1000)
+let Contador;
+inicio.addEventListener("click",()=>{
+    Contador = setInterval(()=>{
+        if(segundos.value > '0'){
+            segundos.value= segundos.value-1;
+            if(segundos.value== '0'){
+                alarma.volume = 0.2; 
+                alarma.play();
             }
-            else if(segundos.value < '59'){
-                correTiempo = setInterval(()=>{
-                    minutos.value --;
-                },1000);
-            }
-         });
-     }
-    else{
-        console.log("Por favor, introduzca valores de tiempo adecuados");
-    }
+        }        
+    },1000)
+})
+
+fin.addEventListener("click", ()=>{
+    clearInterval(Contador);
+    
 });
-
-fin.addEventListener("click",()=>{
-    clearInterval(correTiempo);
-    clearInterval(correTiempoMin);
-    })
